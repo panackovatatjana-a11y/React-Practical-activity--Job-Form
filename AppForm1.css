@@ -1,0 +1,27 @@
+.form-header {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+}
+.bot-input {
+    padding:10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.tag {
+    background: pink;
+    padding:6px 15px;
+    border-radius: 5px;
+}
+ .job-status {
+    padding:  10px;
+    border-radius: 5px;
+ }
+ .submit-data {
+    background: lightgreen;
+    padding: 18px, 20px;
+    border-radius: 5px;
+ }
