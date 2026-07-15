@@ -1,0 +1,292 @@
+/*.card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f4ecf3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  border: 3px solid #eee;
+}
+
+.card h2 {
+  margin: 10px 0 5px;
+  font-size: 2px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.card p {
+  font-size: 14px;
+  color: #444;
+  line-height: 2;
+}
+
+.skills {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  font-size: 12px;;
+  color: #444;
+}
+*/
+/* Basic list styling 
+li {
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 5px;
+  list-style: none;
+}
+
+/* Status colours */
+/* Text colours 
+.active {
+  color: green;
+}
+
+.inactive{
+  color: red;
+}
+
+.completed {
+  color: goldenrod;
+}
+
+
+/* Simple delete button 
+li button {
+  margin-left: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #222;
+  color: white;
+  padding: 15px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: #222;
+  color: white;
+  text-align: center;
+}
+
+.job-list {
+  margin: 20px;
+}
+
+.job-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.job-item.running {
+  background: #007bff;
+}
+
+.job-item.completed {
+  background: #28a745;
+}
+
+.add-job {
+  margin: 20px;
+}
+
+.add-job input {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+/* Completed = green 
+.status-running {
+  color: blue;
+}
+
+.status-completed {
+  color: green;
+}
+
+.status-stopped {
+  color: red;
+}
+.job-item {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.job-item.running {
+  background-color: #ffe8a3;
+}
+
+.job-item.completed {
+  background-color: #c8ffc8;
+}
+*/
+/*Styling for the failed status
+.status-board {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.ticket-info {
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.ticket-image {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerfunc {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #175a9d;
+  color: rgb(19, 2, 2);
+  padding: 30px 8%;
+  margin:40px 0px 0px 0px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  
+ }
+
+ .columns1,
+ .columns2,
+ .columns3 {
+  background-color: #b4ffb4;
+  width: 33.33%;
+  margin: 40px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+ 
+  
+} 
+.App {
+  text-align: center;
+} */
+
+.headertop {
+      display: grid;
+      grid-template-rows: 150px auto;
+      height: auto;
+      width: 100%;
+      padding: 20px;
+
+}
+.headertop img {
+  width: 120px;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+
+.form-header {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      border-bottom: 1px solid black;
+}
+
+.bot-in {
+  font-size: 23px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+
+
+
+}
+
+
+
+.bottomline {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+
+
+}
+
+.tag {
+    font-size: 14px;
+    font-weight: 300;
+  background-color: rgb(242, 216, 221);
+  padding: 4px 20 px;
+  border-radius:4px;
+
+    
+}
+
+
+.submitdata {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: pink;
+  color: rgb(42, 9, 9);
+  border-radius:5px;
+  height: 50px;
+  padding: 7px 15px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: none;
+
+
+}
+
+.jobStatus {
+  font-size: 16px;
+  font-weight: 300; 
+  border: 2px solid black;
+  width: 135px;
+  height: 40px;
+  padding: 0px 5px;
+  margin-top: 10px;
+
+}
